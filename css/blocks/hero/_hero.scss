@@ -1,9 +1,16 @@
 .hero {
-  background: url("../../../img/hero/headphones.png") right 8% center no-repeat;
   background-color: $gray;
   height: 100vh;
   min-height: 652px;
   color: black;
+  position: relative;
+
+  &:before {
+    position: absolute;
+    bottom: -25px;
+    right: 5%;
+    content: url("../../../img/hero/rectangle.png");
+  }
 }
 
 .hero__title-section {
@@ -11,6 +18,7 @@
 }
 
 .hero__container {
+  background: url("../../../img/hero/headphones.png") right center / 45% auto no-repeat;
   display: flex;
   flex-direction: column;
   justify-content: space-between;

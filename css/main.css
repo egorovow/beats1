@@ -47,11 +47,17 @@ img {
 }
 
 .hero {
-  background: url("../../../img/hero/headphones.png") right 8% center no-repeat;
   background-color: #F8FAF9;
   height: 100vh;
   min-height: 652px;
   color: black;
+  position: relative;
+}
+.hero:before {
+  position: absolute;
+  bottom: -25px;
+  right: 5%;
+  content: url("../../../img/hero/rectangle.png");
 }
 
 .hero__title-section {
@@ -59,6 +65,7 @@ img {
 }
 
 .hero__container {
+  background: url("../../../img/hero/headphones.png") right center/45% auto no-repeat;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
