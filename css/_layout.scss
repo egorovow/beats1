@@ -1,0 +1,44 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  font-size: $baseFontSize;
+  font-family: "Play", "Alegreya Sans", Arial, Helvetica, sans-serif;
+  color: #292929;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  min-width: $containerWidth + 20px;
+  overflow: hidden;
+}
+
+.container {
+  width: $containerWidth;
+  margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5 {
+  margin-top: 0;
+  font-weight: normal;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  li {
+    list-style: none;
+    list-style-type: none;
+  }
+} 
+
+img {
+  display: block;
+  width: 100%;
+}

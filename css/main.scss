@@ -1,0 +1,18 @@
+$containerWidth: 1100px;
+$baseFontSize: 16px;
+
+//colors
+$gray: #F8FAF9;
+$white: #fff;
+
+//setup
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans&display=swap');
+@import "./_layout.scss";
+
+//block
+@import "./blocks/hero/_hero.scss";
+@import "./blocks/hero/_header.scss";
+@import "./blocks/hero/_features.scss";
+@import "./blocks/hero/_feature.scss";
+@import "./blocks/hero/_btn.scss";
