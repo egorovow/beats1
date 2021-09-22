@@ -9,7 +9,7 @@
     position: absolute;
     bottom: -25px;
     right: 5%;
-    content: url("../../../img/hero/rectangle.png");
+    content: url('../../../img/hero/rectangle.png');
   }
 }
 
@@ -18,7 +18,7 @@
 }
 
 .hero__container {
-  background: url("../../../img/hero/headphones.png") right center / 45% auto no-repeat;
+  background: url('../../../img/hero/headphones.png') right center / 45% auto no-repeat;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
