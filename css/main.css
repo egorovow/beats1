@@ -242,14 +242,14 @@ img {
   display: flex;
 }
 
-.benefits__item {
+.benefit__item {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
   margin: 0 3%;
   position: relative;
 }
-.benefits__item:before {
+.benefit__item:before {
   content: url("../../../img/benefits/points.png");
   position: absolute;
   top: 30px;
@@ -257,10 +257,10 @@ img {
   -webkit-transform: translate(50%);
           transform: translate(50%);
 }
-.benefits__item:first-child {
+.benefit__item:first-child {
   margin-left: 0;
 }
-.benefits__item:last-child {
+.benefit__item:last-child {
   margin-right: 0;
 }
 
