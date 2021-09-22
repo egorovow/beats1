@@ -58,7 +58,7 @@ img {
   position: absolute;
   bottom: -25px;
   right: 5%;
-  content: url("../../../img/hero/rectangle.png");
+  content: url("../img/hero/rectangle.png");
 }
 
 .hero__title-section {
@@ -66,7 +66,7 @@ img {
 }
 
 .hero__container {
-  background: url("../../../img/hero/headphones.png") right center/45% auto no-repeat;
+  background: url("../img/hero/headphones.png") right center/45% auto no-repeat;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -250,7 +250,7 @@ img {
   position: relative;
 }
 .benefit__item:before {
-  content: url("../../../img/benefits/points.png");
+  content: url("../img/benefits/points.png");
   position: absolute;
   top: 30px;
   right: 0;
