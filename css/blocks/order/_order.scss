@@ -1,0 +1,15 @@
+.order-section {
+  background-color: #181818;
+  position: relative;
+
+  &:before {
+    position: absolute;
+    top: -23px;
+    right: 30%;
+    content: url("../img/order/polygon.png");
+  }
+}
+
+.section__title-order {
+  margin-bottom: 80px;
+}

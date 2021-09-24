@@ -6,6 +6,7 @@
   border-radius: 100px;
   line-height: 1;
   text-decoration: none;
+  border: none;
   
   &--color {
     background: #E01F3D;
@@ -14,7 +15,14 @@
     &:hover {
       background: #fff;
       color: #E01F3D;
+      cursor: pointer;
     }
+  }
+
+  &--transparent {
+    background: transparent;
+    color: #fff;
+    text-transform: none;
   }
 }
 
