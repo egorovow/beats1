@@ -1,0 +1,53 @@
+.footer__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.footer__desc {
+  font-size: 18px;
+  padding-left: 8%;
+}
+
+.foter__desc--adress {
+  margin-bottom: 3px;
+}
+
+.footer__socials {
+  padding-right: 10%;
+}
+
+.social__item {
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+
+  &--icon--vk {
+    background-image: url("../img/footer/vk.png");
+  }
+
+  &--icon--f {
+    background-image: url("../img/footer/f.png");
+  }
+
+  &--icon--in {
+    background-image: url("../img/footer/in.png");
+  }
+
+  &--icon--tg {
+    background-image: url("../img/footer/tg.png");
+  }
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+

@@ -4,6 +4,10 @@ $baseFontSize: 16px;
 //colors
 $gray: #F8FAF9;
 $white: #fff;
+$red: #E01F3D;
+
+//z-indexes
+$z-fixed-menu: 100;
 
 //setup
 @import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
@@ -25,3 +29,6 @@ $white: #fff;
 @import "./blocks/order/_order.scss";
 @import "./blocks/order/_form.scss";
 @import "./blocks/order/_radio.scss";
+@import "./blocks/fixed-menu/_fixed-menu.scss";
+@import "./blocks/map/_map.scss";
+@import "./blocks/footer/_footer.scss";

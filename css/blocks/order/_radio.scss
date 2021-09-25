@@ -44,7 +44,7 @@
   height: 25px;
   position: relative;
   border-radius: 50%;
-  background: #fff;
+  background: $white;
 
   &:before {
     content: "";
@@ -52,7 +52,7 @@
     height: 13px;
     position: absolute;
     display: none;
-    background: #E01F3D;
+    background: $red;
     border-radius: 50%;
     top: 50%;
     left: 50%;

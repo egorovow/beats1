@@ -19,7 +19,7 @@
 }
 
 .reviews__display {
-  background: #F8FAF9;
+  background: $gray;
   padding: 42px 107px 42px 42px;
   overflow: hidden;
   position: relative;
@@ -31,7 +31,7 @@
     width: 83px;
     height: 83px;
     border-radius: 50%;
-    background: #fff;
+    background: $white;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
@@ -57,8 +57,6 @@
 .reviws__content {
   flex: 1;
   padding: 30px 90px 0px 40px;
-//  margin-left: 40px;
-//  margin-right: 107px;
 }
 
 .reviews__title {

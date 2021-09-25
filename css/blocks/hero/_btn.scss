@@ -9,19 +9,19 @@
   border: none;
   
   &--color {
-    background: #E01F3D;
-    color: #fff;
+    background: $red;
+    color: $white;
 
     &:hover {
-      background: #fff;
-      color: #E01F3D;
+      background: $white;
+      color: $red;
       cursor: pointer;
     }
   }
 
   &--transparent {
     background: transparent;
-    color: #fff;
+    color: $white;
     text-transform: none;
   }
 }

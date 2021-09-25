@@ -1,12 +1,12 @@
 .section {
   height: 100vh;
-  min-height: 650px;
+  min-height: 652px;
   display: flex;
   flex-direction: column;
   justify-content: center;
 
   &--font-color-white {
-    color: #fff;
+    color: $white;
 
     .section__title {
       color: inherit;
