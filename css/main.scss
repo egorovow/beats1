@@ -1,11 +1,12 @@
 $containerWidth: 1100px;
 $baseFontSize: 16px;
 
+@import "./_media.scss";
+
 //breakpoints
 $tablets: 768px;
 $phones: 480px;
 
-@import "./_media.scss";
 
 //colors
 $gray: #F8FAF9;
