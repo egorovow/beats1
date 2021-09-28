@@ -1,20 +1,35 @@
 .hero {
   background-color: $gray;
   height: 100vh;
-  min-height: 652px;
+  min-height: rem(652px);
   color: black;
   position: relative;
 
   &:before {
     position: absolute;
-    bottom: -25px;
-    right: 30%;
+    bottom: rem(-25px);
+    right: 10%;
     content: url("../img/hero/rectangle.png");
   }
 }
 
 .hero__title-section {
   width: 46%;
+
+  @include tablets {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+.hero__icons-section {
+  @include tablets {
+    display: none;
+  }
 }
 
 .hero__container {
@@ -23,19 +38,31 @@
   flex-direction: column;
   justify-content: space-between;
   height: 100%;
-  padding: 24px 105px 50px 80px;
+  padding: rem(24px) rem(105px) rem(50px) rem(80px);
+
+  @include tablets {
+    background: url("../img/hero/headphones.png") center 20% / 40% auto no-repeat 
+  }
 }
 
 .hero__main-title {
-  font-size: 48px;
+  font-size: rem(48px);
   line-height: 1.1;
   font-weight: bold;
-  margin-bottom: 22px;
+  margin-bottom: rem(22px);
   text-transform: uppercase;
+
+  @include tablets {
+    margin-bottom: rem(5px);
+  }
 }
 
 .hero__title-desc {
-  font-size: 21px;
-  margin-bottom: 50px;
-  padding-right: 10%;
+  font-size: rem(21px);
+  margin-bottom: rem(50px);
+  padding: 0  5%;
+
+  @include tablets {
+    margin-bottom: rem(23px);
+  }
 }

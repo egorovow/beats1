@@ -3,10 +3,10 @@
 
   &:before {
     position: absolute;
-    bottom: -17px;
+    bottom: rem(-17px);
     left: 28%;
-    width: 35px;
-    height: 35px;
+    width: rem(35px);
+    height: rem(35px);
     border-radius: 50%;
     background: #868686;
     content: "";
@@ -15,27 +15,27 @@
 }
 
 .reviews {
-  padding: 0 79px;
+  padding: 0 rem(79px);
 }
 
 .reviews__display {
   background: $gray;
-  padding: 42px 107px 42px 42px;
+  padding: rem(42px) rem(107px) rem(42px) rem(42px);
   overflow: hidden;
   position: relative;
-  margin-bottom: 15px;
+  margin-bottom: rem(15px);
 
   &:before {
     content: "";
     display: block;
-    width: 83px;
-    height: 83px;
+    width: rem(83px);
+    height: rem(83px);
     border-radius: 50%;
     background: $white;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    top: -65px;
+    top: rem(-65px);
   }
 }
 
@@ -44,8 +44,8 @@
 }
 
 .reviews__avatar {
-  width: 253px;
-  height: 264px;
+  width: rem(253px);
+  height: rem(264px);
 }
 
 .reviews__avatar-img {
@@ -56,22 +56,22 @@
 
 .reviws__content {
   flex: 1;
-  padding: 30px 90px 0px 40px;
+  padding: rem(30px) rem(90px) rem(0px) rem(40px);
 }
 
 .reviews__title {
-  font-size: 24px;
+  font-size: rem(24px);
   font-weight: bold;
-  margin-bottom: 27px;
+  margin-bottom: rem(27px);
   color: black;
 }
 
 .reviews__text {
-  margin-bottom: 38px;
+  margin-bottom: rem(38px);
 }
 
 .reviews_author {
-  font-size: 18px;
+  font-size: rem(18px);
   font-weight: bold;
   color: black;
 }

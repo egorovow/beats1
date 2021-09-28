@@ -3,7 +3,7 @@
 
   &:before {
     position: absolute;
-    bottom: -20px;
+    bottom: rem(-20px);
     left: 28%;
     content: url("../img/benefits/vector.png");
   }
@@ -21,7 +21,7 @@
   &:before {
     content: url("../img/benefits/points.png");
     position: absolute;
-    top: 50px;
+    top: rem(50px);
     right: 0;
     transform: translate(50%);
   }

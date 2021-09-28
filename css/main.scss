@@ -1,6 +1,12 @@
 $containerWidth: 1100px;
 $baseFontSize: 16px;
 
+//breakpoints
+$tablets: 768px;
+$phones: 480px;
+
+@import "./_media.scss";
+
 //colors
 $gray: #F8FAF9;
 $white: #fff;
@@ -13,6 +19,7 @@ $z-fixed-menu: 100;
 @import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans&display=swap');
 @import "./_layout.scss";
+
 
 //block
 @import "./blocks/hero/_hero.scss";
@@ -32,3 +39,4 @@ $z-fixed-menu: 100;
 @import "./blocks/fixed-menu/_fixed-menu.scss";
 @import "./blocks/map/_map.scss";
 @import "./blocks/footer/_footer.scss";
+

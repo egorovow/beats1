@@ -4,12 +4,12 @@
 
   &:before {
     position: absolute;
-    top: -23px;
+    top: rem(-23px);
     right: 30%;
     content: url("../img/order/polygon.png");
   }
 }
 
 .section__title-order {
-  margin-bottom: 80px;
+  margin-bottom: rem(80px);
 }

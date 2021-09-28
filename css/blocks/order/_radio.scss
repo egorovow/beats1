@@ -2,7 +2,7 @@
   display: flex;
   cursor: pointer;
   user-select: none;
-  margin-right: 24px;
+  margin-right: rem(24px);
 
   &:last-child {
     margin-right: 0;
@@ -10,11 +10,11 @@
 
   &--checkbox {
     .radio__visible {
-      border-radius: 4px;
+      border-radius: rem(4px);
 
       &:before {
-        width: 10px;
-        height: 8px;
+        width: rem(10px);
+        height: rem(8px);
         background: url("./../img/order/checkmark.png") no-repeat;
       }
     }
@@ -22,11 +22,11 @@
 }
 
 .radio__visible {
-  margin-right: 10px;
+  margin-right: rem(10px);
 }
 
 .radio__title {
-  margin-top: 4px;
+  margin-top: rem(4px);
 }
 
 .radio__elem {
@@ -40,16 +40,16 @@
 }
 
 .radio__visible {
-  width: 25px;
-  height: 25px;
+  width: rem(25px);
+  height: rem(25px);
   position: relative;
   border-radius: 50%;
   background: $white;
 
   &:before {
     content: "";
-    width: 13px;
-    height: 13px;
+    width: rem(13px);
+    height: rem(13px);
     position: absolute;
     display: none;
     background: $red;
